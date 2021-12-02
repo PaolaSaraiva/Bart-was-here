@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="modal">
+      <img class="sadbart" src="./assets/bart (1).png" />
+      <p>
+        Bart pegou detenção por andar de skate nos corredores agora ele tem que
+        escrever repetidas vezes a frase "Eu não andarei de skate nos
+        corredores", Ajude-o para que ele possa ir brincar com Milhouse.
+      </p>
+      <input
+        class="number"
+        type="number"
+        id="vezes"
+        placeholder="Numero de repetições"
+        min="1"
+      />
+      <button class="repetir" onclick="repetir()">Repetir</button>
+    </div>
+    <div id="quadro"></div>
+    <span id="repetidas"></span>
+    <span id="apagadas"></span>
+    <a class="finalizar" href="./final.html">Finalizar</a>
+    <script src="./index.js"></script>
+    <script src="./modal.js"></script>
+  </body>
+</html>

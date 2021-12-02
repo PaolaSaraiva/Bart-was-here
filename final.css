@@ -1,0 +1,40 @@
+body{
+    background-image: url(./assets/quadro\ 2.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+a{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    text-decoration: none;
+    font-family: 'Patrick Hand';
+    font-size: 35px;
+    color: black;
+    background:white;
+    border-radius: 18px;
+   padding: 8px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
